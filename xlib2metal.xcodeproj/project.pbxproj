@@ -6,8 +6,16 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0974BDA62143B9B000E07CD1 /* bridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0974BDA52143B9B000E07CD1 /* bridge.mm */; };
+		0974BDA92143BC4700E07CD1 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0974BDA82143BC4700E07CD1 /* Metal.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0974BD9C2143B7A900E07CD1 /* libxlib2metal.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libxlib2metal.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		0974BDA32143B7BB00E07CD1 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		0974BDA52143B9B000E07CD1 /* bridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = bridge.mm; sourceTree = "<group>"; };
+		0974BDA82143BC4700E07CD1 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -15,6 +23,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0974BDA92143BC4700E07CD1 /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -24,7 +33,10 @@
 		0974BD932143B7A900E07CD1 = {
 			isa = PBXGroup;
 			children = (
+				0974BDA32143B7BB00E07CD1 /* bridge.h */,
+				0974BDA52143B9B000E07CD1 /* bridge.mm */,
 				0974BD9D2143B7A900E07CD1 /* Products */,
+				0974BDA72143BC4600E07CD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -34,6 +46,14 @@
 				0974BD9C2143B7A900E07CD1 /* libxlib2metal.dylib */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0974BDA72143BC4600E07CD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0974BDA82143BC4700E07CD1 /* Metal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0974BDA62143B9B000E07CD1 /* bridge.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +246,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /opt/X11/include;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -238,6 +260,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /opt/X11/include;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
