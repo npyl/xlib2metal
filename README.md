@@ -1,4 +1,5 @@
-#  xlib2metal
+#  xlib2metal [![License](https://img.shields.io/badge/LICENSE-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 
 It couldn't be more straightforward than it is: A bridge between Xlib and Metal for macOS.
 
@@ -11,6 +12,11 @@ in the project's [bureporter site](https://bugs.freedesktop.org/buglist.cgi?bug_
 The only thing that Apple has cared (partially) about is organising the bugreports.
 
 This is not just for conky; this is for [inkscape](https://inkscape.org/en/), for [gimp](https://www.gimp.org/) and other important software.
+
+## CONTRIBUTING 🤝
+
+You can write code or edit the wiki or help this project to get more attention! Anything is great!
+There are no specific CONTRIBUTING GUIDELINES; If you wish to contribute code, open a Pull Request.
 
 ## DONATING 💰
 
