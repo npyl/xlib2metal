@@ -16,6 +16,7 @@
 		0974BDA32143B7BB00E07CD1 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 		0974BDA52143B9B000E07CD1 /* bridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = bridge.mm; sourceTree = "<group>"; };
 		0974BDA82143BC4700E07CD1 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		0974BDAA2143C1C800E07CD1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +34,7 @@
 		0974BD932143B7A900E07CD1 = {
 			isa = PBXGroup;
 			children = (
+				0974BDAA2143C1C800E07CD1 /* README.md */,
 				0974BDA32143B7BB00E07CD1 /* bridge.h */,
 				0974BDA52143B9B000E07CD1 /* bridge.mm */,
 				0974BD9D2143B7A900E07CD1 /* Products */,
