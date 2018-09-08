@@ -1,6 +1,6 @@
 #  xlib2metal
 
-It couldn't be more straightforward than it is, a bridge between Xlib and Metal for macOS.
+It couldn't be more straightforward than it is: A bridge between Xlib and Metal for macOS.
 
 ## Why?
 
